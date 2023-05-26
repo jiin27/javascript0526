@@ -71,6 +71,7 @@
         let game_score = 0; //초기값을지정하지 않으면 undefined10 이 돼버림/
         let h = -1; //hpArray에 접근할 idex
         let stage=0; //1 stage부터 게임이 진행되어야 하므로 0
+        let status=true;
 
         //게임에 사용할 단어
         let wordArray = [
@@ -153,6 +154,13 @@
                         //hp박스를 회색으로 전환
                         h++;
                         hpArray[h].style.background = "gray";
+                    }
+                    if(i==spanArray.length){
+                        status=false;
+                        for(let a=0; a<){
+                            hpArray[a].style.background="red";
+                            score.
+                        }
                     }
                 }
             }
